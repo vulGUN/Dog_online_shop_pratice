@@ -1,0 +1,137 @@
+@media ( max-width: 1400px )
+  .first_banner
+    &_title
+      font-size: 90px
+    &_wrapper_button
+      margin-top: 90px
+    &_img
+      top: -40px
+      right: -140px
+      width: 970px
+
+@media ( max-width: 1199px )
+  .menu
+    width: 60%
+  .first_banner
+    padding: 178px 0 137px 0
+    max-height: 600px
+    &_title
+      font-size: 80px
+    &_wrapper_button
+      margin-top: 70px
+    &_img
+      top: -40px
+      right: -100px
+      width: 740px
+
+@media ( max-width: 991px )
+  .popular
+    .wrapper_card
+      &_item
+        &_bg_big
+          height: 320px
+        &_bg_mini
+          height: 220px
+  .title
+    font-size: 26px
+  .subtitle
+    font-size: 16px
+  .dogcare
+    &_wrapper
+      &_img
+        width: 70%
+        transform: translateX(0)
+      &_rightside_btn
+        margin-top: 30px
+        .rightside_btn_1
+          width: 160px
+          height: 40px
+          font-size: 14px
+        .rightside_btn_2
+          margin: 15px 0 0 0
+          width: 130px
+          height: 40px
+          font-size: 14px
+  .subscription
+    &_wrapper
+      &_item
+        .item_title
+          font-size: 18px
+          margin-top: 30px
+    &_btn
+      width: 120px
+      height: 40px
+      font-size: 14px
+      
+@media ( max-width: 767px )   
+  header
+    nav
+      display: none
+    .header_button
+      .hamburger
+        display: block
+        margin-left: 40px
+        width: 20px
+        height: 20px
+        margin-top: 2px
+        span 
+          display: block 
+          height: 2px
+          width: 100%
+          background-color: #000
+          margin: 4px
+          transition: 0.4s all ease-out
+          &:nth-child(2)
+            width: 70%
+        &_active 
+          span 
+            // margin-top: 2px
+            // margin-bottom: -6px 
+            &:nth-child(1)
+              transform: translateY(6px) rotate(-45deg)
+            &:nth-child(2)
+              width: 0
+              transform: translateX(20px) scale(0)
+            &:nth-child(3)
+              transform: translateY(-6px) rotate(45deg)
+  .first_banner
+    padding: 128px 0 37px 0
+    max-height: 600px
+    .first_banner_title
+      font-size: 60px
+      width: 400px
+    .first_banner_wrapper_button
+      margin-top: 50px
+      .first_banner_btn_1
+        width: 100px
+        height: 40px
+        font-size: 14px
+      .first_banner_btn_2
+        width: 120px
+        height: 40px
+        font-size: 14px
+        margin-left: 15px
+    .first_banner_img
+      top: 10px
+      right: -100px
+      width: 340px
+  .quality
+    padding: 100px 0 55px 0
+    .quality_itembox
+      width: 160px
+      .quality_title
+        font-size: 16px
+        line-height: 24px
+      .quality_descr
+        font-size: 12px
+        margin: 11px 10px 0 10px
+      .wrapper_link
+        .quality_details
+          font-size: 14px
+  .popular
+    .wrapper_card
+      &_item
+        &_bg_big
+          height: 250px
+        &_bg_mini
+          height: 180px
